@@ -1,9 +1,9 @@
 # food-delivery2
-##■  Microservice Implementation 
+■  Microservice Implementation 
 1. Saga (Pub / Sub) 
 2. CQRS 
 3. Compensation / Correlation 
-##■  Microservice Orchestration 
+■  Microservice Orchestration 
 
 
 
@@ -30,9 +30,10 @@
 ![Untitled](https://user-images.githubusercontent.com/73973086/219024743-556eff73-3afc-4352-88bc-ffb535340f7c.png)
 
 ![Untitled](https://user-images.githubusercontent.com/73973086/219024867-9d5fcbad-c3c8-456d-869e-a15939ea41eb.png)
+**나머지 도커 이미지들(gateway 포함) 모두 docker hub에 넣어줌
 
 ![Untitled](https://user-images.githubusercontent.com/73973086/219024900-ef9b1a53-9a41-4752-a6f4-9ef7da6c93f9.png)
-나머지 도커 이미지들(gateway 포함) 모두 docker hub에 넣어줌
+
 
 ![image](https://user-images.githubusercontent.com/73973086/219026189-d71e5b90-345b-42de-a6cf-8ab4f235934a.png)
 클러스터 생성
@@ -48,7 +49,8 @@ service 설치 & 배포
 ![image](https://user-images.githubusercontent.com/73973086/219047006-239d83c3-69d0-405d-bc44-f2d717a1a039.png)
 order, product, delivery, gateway 모두 yaml을 통해 클러스터에 배포 완료
 ![image](https://user-images.githubusercontent.com/73973086/219048683-e769cfd3-320d-4119-8eba-fc36839197c1.png)
-- gateway를 통해 주문 성공
+**gateway를 통해 주문 성공
+
 ![image](https://user-images.githubusercontent.com/73973086/219029480-dff926b7-3a1b-4fc4-9856-13ad2a91af7f.png)
 도커 허브를 이용해 order 마이크로 서비스 실행
 
@@ -59,7 +61,7 @@ order, product, delivery, gateway 모두 yaml을 통해 클러스터에 배포 �
 
 
 ![image](https://user-images.githubusercontent.com/73973086/219030484-53762546-e2ea-4518-886f-9b5bee8c0cc3.png)
-**주문 성공
+
 
 --Helm 설치
 ![image](https://user-images.githubusercontent.com/73973086/219030610-c0ad032e-7d83-490c-9139-daef5aade946.png)
