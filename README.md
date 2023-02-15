@@ -8,23 +8,17 @@
 2. CQRS 
 3. Compensation / Correlation 
 ##■  Microservice Orchestration 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/79f9c384-dc0c-4900-93b8-b5bd2142eb55/Untitled.png)
-- 도커허브를 통한 도커 이미지 빌드
-*![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1287b82e-b888-4f84-bf86-ecfc74e1611d/Untitled.png)
-오류 발생
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/026bc47e-f428-4200-ae23-e1f0d59d623c/Untitled.png)
-- mvn clean package -Dmaven.test.skip=true 실행
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/672b16d6-2bc2-4fdd-993e-a9a8ef74820b/Untitled.png)
-오류 해결
-
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/149fde77-039a-43b8-bf9b-707e1aed4566/Untitled.png)
-order에 있는 도커 이미지
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/66103f91-9756-4e4a-bd19-4716835aa4dd/Untitled.png)
-- 도커 푸시
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f41c2981-f7e3-4bc1-9cf5-6c471bfaa30d/Untitled.png)
-- 세개 모두 도커 허브에 성공적으로 올라감
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b6c69234-c1e9-4b3b-9216-50a28c828b1f/Untitled.png)
-- 카프카 실행
+![도커 배포](https://user-images.githubusercontent.com/73973086/219024426-7145969c-ddcf-4f60-98c4-6b946473e241.png)
+![오류](https://user-images.githubusercontent.com/73973086/219024496-c43266ea-3a5e-43eb-9bba-84d4f6c3bf65.png)
+오류남
+![mvn clean 실행](https://user-images.githubusercontent.com/73973086/219024576-202f522b-f645-4ce1-ad7e-496e0d3deeab.png)
+![성공](https://user-images.githubusercontent.com/73973086/219024618-83f859f3-5bd0-4167-b009-eacf9501a78d.png)
+![order에 있는 도커 이미지](https://user-images.githubusercontent.com/73973086/219024683-f6f25dcf-8bb7-4a29-96f1-af31fb775964.png)
+![도커 푸시](https://user-images.githubusercontent.com/73973086/219024716-b8ae7877-4e25-4b9b-909a-b2044eecc6fc.png)
+![Untitled](https://user-images.githubusercontent.com/73973086/219024743-556eff73-3afc-4352-88bc-ffb535340f7c.png)
+![Untitled](https://user-images.githubusercontent.com/73973086/219024867-9d5fcbad-c3c8-456d-869e-a15939ea41eb.png)
+![Untitled](https://user-images.githubusercontent.com/73973086/219024900-ef9b1a53-9a41-4752-a6f4-9ef7da6c93f9.png)
+cc
 1. Deploy to EKS Cluster 
 2. Gateway & Service Router 설치 
 3. Autoscale (HPA)
