@@ -4,6 +4,10 @@
 2. CQRS 
 3. Compensation / Correlation 
 ##■  Microservice Orchestration 
+
+
+
+1. Deploy to EKS Cluster 
 ![도커 배포](https://user-images.githubusercontent.com/73973086/219024426-7145969c-ddcf-4f60-98c4-6b946473e241.png)
 도커 배포
 ![오류](https://user-images.githubusercontent.com/73973086/219024496-c43266ea-3a5e-43eb-9bba-84d4f6c3bf65.png)
@@ -39,8 +43,8 @@ order에 있는 도커 이미지
 ![image](https://user-images.githubusercontent.com/73973086/219030610-c0ad032e-7d83-490c-9139-daef5aade946.png)
 kafka(namespace 없이)
 
-
-1. Deploy to EKS Cluster 
+![image](https://user-images.githubusercontent.com/73973086/219040900-c9b9f077-4a71-4df0-b932-67d066e946f7.png)
+kubectl get all
 2. Gateway & Service Router 설치 
 3. Autoscale (HPA)
 ![image](https://user-images.githubusercontent.com/487999/79708354-29074a80-82fa-11ea-80df-0db3962fb453.png)
