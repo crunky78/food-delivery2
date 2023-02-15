@@ -30,6 +30,15 @@ order에 있는 도커 이미지
 
 ![image](https://user-images.githubusercontent.com/73973086/219028858-57aa6a39-a7a2-4c8a-b584-a7ca77a1f619.png)
 클러스터 생성 완료
+![image](https://user-images.githubusercontent.com/73973086/219044787-6cfccd57-6aa3-4250-b8e8-60b9755b697a.png)
+**클러스터에 배포
+- yaml 파일로 배포
+- ![image](https://user-images.githubusercontent.com/73973086/219045573-9adc15a6-9f7f-4474-8b82-475c5070736e.png)
+service 설치 & 배포
+![image](https://user-images.githubusercontent.com/73973086/219047006-239d83c3-69d0-405d-bc44-f2d717a1a039.png)
+order, product, delivery, gateway 모두 yaml을 통해 클러스터에 배포 완료
+![image](https://user-images.githubusercontent.com/73973086/219048683-e769cfd3-320d-4119-8eba-fc36839197c1.png)
+- gateway를 통해 주문 성공
 ![image](https://user-images.githubusercontent.com/73973086/219029480-dff926b7-3a1b-4fc4-9856-13ad2a91af7f.png)
 도커 허브를 이용해 order 마이크로 서비스 실행
 
@@ -38,6 +47,8 @@ order에 있는 도커 이미지
 
 --log 확인
 
+
+
 ![image](https://user-images.githubusercontent.com/73973086/219030484-53762546-e2ea-4518-886f-9b5bee8c0cc3.png)
 --Helm 설치
 ![image](https://user-images.githubusercontent.com/73973086/219030610-c0ad032e-7d83-490c-9139-daef5aade946.png)
@@ -45,9 +56,31 @@ kafka(namespace 없이)
 
 ![image](https://user-images.githubusercontent.com/73973086/219040900-c9b9f077-4a71-4df0-b932-67d066e946f7.png)
 kubectl get all
+![image](https://user-images.githubusercontent.com/487999/79708354-29074a80-82fa-11ea-80df-0db3962fb453.png)
+
 2. Gateway & Service Router 설치 
 3. Autoscale (HPA)
-![image](https://user-images.githubusercontent.com/487999/79708354-29074a80-82fa-11ea-80df-0db3962fb453.png)
+
+![image](https://user-images.githubusercontent.com/73973086/219052324-d4aefd50-efd0-4533-bcb8-b5ff1f49d5d0.png)
+order autoscale 실행
+![image](https://user-images.githubusercontent.com/73973086/219052692-c2dc4965-46c8-4e86-b3c0-34eb087f72db.png)
+현재 order pod 한개
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 # 예제 - 음식배달
 
