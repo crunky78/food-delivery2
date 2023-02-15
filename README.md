@@ -18,7 +18,25 @@
 ![Untitled](https://user-images.githubusercontent.com/73973086/219024743-556eff73-3afc-4352-88bc-ffb535340f7c.png)
 ![Untitled](https://user-images.githubusercontent.com/73973086/219024867-9d5fcbad-c3c8-456d-869e-a15939ea41eb.png)
 ![Untitled](https://user-images.githubusercontent.com/73973086/219024900-ef9b1a53-9a41-4752-a6f4-9ef7da6c93f9.png)
-cc
+![image](https://user-images.githubusercontent.com/73973086/219026189-d71e5b90-345b-42de-a6cf-8ab4f235934a.png)
+클러스터 생성
+
+![image](https://user-images.githubusercontent.com/73973086/219028858-57aa6a39-a7a2-4c8a-b584-a7ca77a1f619.png)
+클러스터 생성 완료
+![image](https://user-images.githubusercontent.com/73973086/219029480-dff926b7-3a1b-4fc4-9856-13ad2a91af7f.png)
+도커 허브를 이용해 order 마이크로 서비스 실행
+
+![image](https://user-images.githubusercontent.com/73973086/219029641-bfa6016c-e783-4bd3-8dd9-8faceaecbacf.png)
+-- 성공적으로 po 확인
+
+--log 확인
+
+![image](https://user-images.githubusercontent.com/73973086/219030484-53762546-e2ea-4518-886f-9b5bee8c0cc3.png)
+--Helm 설치
+![image](https://user-images.githubusercontent.com/73973086/219030610-c0ad032e-7d83-490c-9139-daef5aade946.png)
+kafka(namespace 없이)
+
+
 1. Deploy to EKS Cluster 
 2. Gateway & Service Router 설치 
 3. Autoscale (HPA)
