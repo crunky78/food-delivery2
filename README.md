@@ -5,7 +5,8 @@
 - 실행, mvn spring-boot:run
 ![image](https://user-images.githubusercontent.com/73973086/219616599-8b7531eb-3119-415e-a157-7c878c4fba4a.png)
 ![image](https://user-images.githubusercontent.com/73973086/219616660-84ceace6-261f-4694-a42c-c3b7fdab0d99.png)
-
+![image](https://user-images.githubusercontent.com/73973086/219922906-fca7ce73-9645-4fa9-900b-dde21f6db6ad.png)
+order를 통해 주문완료
 2. CQRS 
 3. Compensation / Correlation 
 ■  Microservice Orchestration 
@@ -53,8 +54,7 @@
 service 설치 & 배포
 ![image](https://user-images.githubusercontent.com/73973086/219047006-239d83c3-69d0-405d-bc44-f2d717a1a039.png)
 order, product, delivery, gateway 모두 yaml을 통해 클러스터에 배포 완료
-![image](https://user-images.githubusercontent.com/73973086/219048683-e769cfd3-320d-4119-8eba-fc36839197c1.png)
-**gateway를 통해 주문 성공
+
 
 ![image](https://user-images.githubusercontent.com/73973086/219029480-dff926b7-3a1b-4fc4-9856-13ad2a91af7f.png)
 도커 허브를 이용해 order 마이크로 서비스 실행
