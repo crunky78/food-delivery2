@@ -1,6 +1,8 @@
 # food-delivery2
-■  Microservice Implementation 
-1. Saga (Pub / Sub) 
+#  Microservice Implementation 
+## Saga (Pub / Sub) 
+![image](https://user-images.githubusercontent.com/73973086/219940304-305cb56c-cd10-4a92-8164-6d17215f2ff5.png)
+
 ![image](https://user-images.githubusercontent.com/73973086/219616475-85806fe0-5ba0-41b1-9c85-2583f1a2473a.png)
 - 실행, mvn spring-boot:run
 
