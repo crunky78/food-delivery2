@@ -1,17 +1,25 @@
 # food-delivery2
-#  Microservice Implementation 
-## Saga (Pub / Sub) 
+
+## 1.Saga (Pub / Sub) 
 ![image](https://user-images.githubusercontent.com/73973086/219940304-305cb56c-cd10-4a92-8164-6d17215f2ff5.png)
+![image](https://user-images.githubusercontent.com/73973086/219941946-92e6d60c-b63b-45f9-8686-39631e76f852.png)
+
+
+##2.CQRS
+![image](https://user-images.githubusercontent.com/73973086/219940522-94f2f872-4540-4104-bb0a-a125eb74d9c3.png)
+
+##3. Compensation / Correlation
+![image](https://user-images.githubusercontent.com/73973086/219941366-ced06923-3fea-4f30-8c2e-905f9a618c0c.png)
+**오더 주문 취소 로직
+
 
 ![image](https://user-images.githubusercontent.com/73973086/219616475-85806fe0-5ba0-41b1-9c85-2583f1a2473a.png)
 - 실행, mvn spring-boot:run
-
 ![image](https://user-images.githubusercontent.com/73973086/219922906-fca7ce73-9645-4fa9-900b-dde21f6db6ad.png)
 order를 통해 주문완료
 
 
-
-1. Deploy to EKS Cluster 
+##1. Deploy to EKS Cluster 
 **도커 배포**
 ![도커 배포](https://user-images.githubusercontent.com/73973086/219024426-7145969c-ddcf-4f60-98c4-6b946473e241.png)
 
@@ -38,6 +46,7 @@ order를 통해 주문완료
 
 ![Untitled](https://user-images.githubusercontent.com/73973086/219024900-ef9b1a53-9a41-4752-a6f4-9ef7da6c93f9.png)
 
+##2. Gateway & Service Router 설치 
 
 ![image](https://user-images.githubusercontent.com/73973086/219026189-d71e5b90-345b-42de-a6cf-8ab4f235934a.png)
 클러스터 생성
@@ -73,13 +82,12 @@ kafka(namespace 없이)
 ![image](https://user-images.githubusercontent.com/73973086/219040900-c9b9f077-4a71-4df0-b932-67d066e946f7.png)
 kubectl get all
 
-2. Gateway & Service Router 설치 
-3. Autoscale (HPA)
+##3. Autoscale (HPA)
 
 ![image](https://user-images.githubusercontent.com/73973086/219052324-d4aefd50-efd0-4533-bcb8-b5ff1f49d5d0.png)
 order autoscale 실행
 ![image](https://user-images.githubusercontent.com/73973086/219052692-c2dc4965-46c8-4e86-b3c0-34eb087f72db.png)
-현재 order pod 한개
+
 
 
 
