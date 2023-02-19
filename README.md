@@ -6,9 +6,6 @@
 
 ![image](https://user-images.githubusercontent.com/73973086/219922906-fca7ce73-9645-4fa9-900b-dde21f6db6ad.png)
 order를 통해 주문완료
-2. CQRS 
-3. Compensation / Correlation 
-■  Microservice Orchestration 
 
 
 
