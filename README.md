@@ -3,8 +3,7 @@
 1. Saga (Pub / Sub) 
 ![image](https://user-images.githubusercontent.com/73973086/219616475-85806fe0-5ba0-41b1-9c85-2583f1a2473a.png)
 - 실행, mvn spring-boot:run
-![image](https://user-images.githubusercontent.com/73973086/219616599-8b7531eb-3119-415e-a157-7c878c4fba4a.png)
-![image](https://user-images.githubusercontent.com/73973086/219616660-84ceace6-261f-4694-a42c-c3b7fdab0d99.png)
+
 ![image](https://user-images.githubusercontent.com/73973086/219922906-fca7ce73-9645-4fa9-900b-dde21f6db6ad.png)
 order를 통해 주문완료
 2. CQRS 
